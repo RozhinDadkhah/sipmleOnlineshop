@@ -1,0 +1,19 @@
+.productList {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 600px 600px 600px;
+    margin: 5% 1%;
+    align-content: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3));
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:50em){
+    .productList{
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 400px 400px;
+    }
+}

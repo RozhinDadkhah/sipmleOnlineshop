@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid rgb(48, 46, 46);
+    z-index: 100;
+}
+
+.logo {
+    margin: 2% 5%;
+    padding: 1%;
+}
+
+.logo h2{
+    color: whitesmoke;
+    padding: 5%;
+    border-bottom: 2px solid rgba(0, 255, 136,0.5);
+    border-left: 2px solid rgba(0, 255, 136,0.5);
+}
+
+.icons {
+    flex: 0.3;
+    margin: 2% -5%;
+    font-size: 210%;
+}
+
+.icons span{
+    color: whitesmoke;
+    transition: all 0.2s ease-in-out;
+    padding: 0 4%;
+}
+
+.icons span:hover{
+    filter: drop-shadow(1px 5px 5px rgba(0, 255, 136,0.8));
+    border-bottom: 4px solid rgba(0, 255, 136,0.5);
+}
+

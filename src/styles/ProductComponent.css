@@ -1,0 +1,51 @@
+.prooduct{
+    display: flex;
+    height: 95%;
+    width: 90%;
+    border: 1px solid  #72e4c7;
+    border-radius: 5px;
+}
+
+.prooduct:hover{
+    -webkit-box-shadow: 7px -3px 15px 10px  #E3FFDC; 
+    box-shadow: 7px -3px 15px 10px  #E3FFDC;
+    transform: scale(1);
+    border: none;
+
+}
+
+.divimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    padding-top: 10%;
+    width: 40%;
+}
+
+.content {
+    color: black;
+    padding: 12%;
+    font-size: 1.2rem;
+}
+
+.title{
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: 1px solid #84cfb3;
+    padding: 5% 0;
+}
+
+.price{
+    text-align: center;
+    color: whitesmoke;
+    padding: 10%;
+}
+
+.meta{
+    text-align: center;
+    color: whitesmoke;
+    padding: 10%;
+}
